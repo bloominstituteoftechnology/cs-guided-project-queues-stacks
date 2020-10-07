@@ -11,7 +11,7 @@ not remove the item.
 *Note: Your stacks will contain only integers. You should be able to get a
 runtime of O(1) for push(), pop(), and get_max().*
 """
-class Stack(object):
+class Stack:
     def __init__(self):
         """Initialize an empty stack"""
         self.items = []
@@ -35,7 +35,7 @@ class Stack(object):
             return None
         return self.items[-1]
 
-class MaxStack(object):
+class MaxStack:
     def __init__(self):
         # Your code here
 
